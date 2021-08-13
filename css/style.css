@@ -1,0 +1,36 @@
+
+
+
+.parent {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    width: 300px;
+    height: 85px;
+    padding: 10px;
+    padding-top: 1px;
+    border: 1px solid #80808040;
+    border-left: 4px solid #00800091;
+    transition: all 0.6s ease-in-out;
+}
+.hidden{
+    right: -325px;
+}
+.parent #close {
+    font-size: 24px;
+    margin-left: 182px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.parent h4 {
+    margin-top: 11px;
+}
+.parent p {
+    direction: rtl;
+    margin-left: 84px;
+    margin-top: 0px;
+}
+.parent .fa{
+    color: green;
+}
